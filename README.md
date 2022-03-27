@@ -25,3 +25,18 @@ Troubleshooting
 - Check the Arduino is on COM3 - the plugin expects to find the Arduino on COM3, you can change this by editing the `dash_plugin.txt` options file
 
 - Check for error messages in the game log (in `%USERPROFILE%\Documents\Euro Truck Simulator 2\game.log.txt`).  
+
+Setup Development Environment
+---------------
+
+This fork was set up to use Visual Studio Code. Complete the following steps to setup your local development environment.
+
+1. Download and install Visual Studio Code (https://code.visualstudio.com)
+2. Install the **Desktop development with C++** workload of the **Visual Studio Build Tools** (https://visualstudio.microsoft.com/downloads#other)
+3. Install Git (for example on Windows 10: `winget install Git.Git`)
+4. Clone the repository and open in Visual Studio Code
+5. Download the latest SCS Telemetry SDK (https://modding.scssoft.com/wiki/Documentation/Engine/SDK/Telemetry)
+6. Extract the SDK into the local SDK folder of the repository
+7. Optionally install the Arduino IDE ((for example on Windows 10: `winget install Arduino`))
+
+You're all set!
